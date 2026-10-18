@@ -1,0 +1,101 @@
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* KOYU MOD - SAYFA */
+.dark main {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+/* KOYU MOD - KARTLAR */
+.dark main .bg-white {
+  background-color: #1e293b;
+}
+
+.dark main .bg-slate-50 {
+  background-color: #0f172a;
+}
+
+.dark main .bg-slate-100 {
+  background-color: #334155;
+}
+
+.dark main .bg-slate-200 {
+  background-color: #475569;
+}
+
+/* DEMO DENEY BÖLÜMÜ */
+.dark main .bg-blue-50 {
+  background-color: #172554;
+}
+
+/* BİLİMSEL UYARI */
+.dark main .bg-amber-50 {
+  background-color: #422006;
+}
+
+.dark main .text-amber-800 {
+  color: #fde68a;
+}
+
+.dark main .text-amber-600 {
+  color: #fbbf24;
+}
+
+/* KOYU MOD - YAZILAR */
+.dark main .text-slate-900,
+.dark main .text-slate-800 {
+  color: #f8fafc;
+}
+
+.dark main .text-slate-700,
+.dark main .text-slate-600 {
+  color: #cbd5e1;
+}
+
+.dark main .text-slate-500 {
+  color: #94a3b8;
+}
+
+.dark main .text-blue-600 {
+  color: #93c5fd;
+}
+
+.dark main .text-green-600 {
+  color: #86efac;
+}
+
+/* KOYU MOD - FORM ALANLARI */
+.dark main input,
+.dark main textarea,
+.dark main select {
+  background-color: #334155;
+  color: #f8fafc;
+  border-color: #64748b;
+}
+
+.dark main input::placeholder,
+.dark main textarea::placeholder {
+  color: #cbd5e1;
+}
+
+.dark main label {
+  color: #e2e8f0;
+}
+
+/* KOYU MOD - TABLOLAR */
+.dark main th,
+.dark main td {
+  border-color: #475569;
+}
+
+/* KOYU MOD - GRAFİK */
+.dark main .recharts-text {
+  fill: #cbd5e1;
+}
+
+.dark main .recharts-cartesian-grid line {
+  stroke: #475569;
+}
